@@ -1,0 +1,90 @@
+********************************
+Subject : Linux
+Assignment No: 1
+Name: Vishawjeet Deshmukh
+Batch : Part Time 2
+********************************
+
+01. echo hello world 
+	It Simply prints 'hello world' on terminal
+02. passwd
+	It changes the login password
+03. date
+	Prints Current date in 'Day Month Date HH:MM:SS TimeZone Year' Format
+04. hostname
+	Prints Node/PC Name like 'vishawjeet-HP-Pavilion-15-Notebook-PC'
+05. arch
+	Prints architecutre of Machine i.e. 32 Bit (Output : 'i686') / 64 Bit (Output : 'x86_64')
+06. uname -a
+	Prints details about machine in 'KernelType Node/PCname KernalRelease KernalVersion MachineName ProcessorType HWPlatform OS'
+07. dmseg | more
+	dmseg is used for examine or control the kernal ring buffer.
+	Default action is to read all messages from kernal ring buffer.
+08. uptime
+	One line information
+	Current Time, Running Time, Currently Logged in Users, System Load Averages for past 1, 5, 15 minutes
+09. who am i
+	Prints only the information about user who run the command
+10. who
+	Show who is logged on
+11. id
+	Prints real and effective user and group IDs
+	Ex: 
+		uid=1000(vishawjeet) gid=1000(vishawjeet) groups=1000(vishawjeet),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113
+		(lpadmin),128(sambashare)
+12. last
+	Shows the list of last login users
+13. finger
+	Disply information about the system users in below format
+	Login       Name         Tty      Idle  Login Time   Office     Office Phone
+14. w
+	Shows who is logged in and what they are doing in 'current_time system_running_time users_currently_logged_in system_load_averages'
+15. top
+	It displays Linux processes just like we see the processes in Task Manager of Windows.
+16. echo $SHELL
+	$SHELL is an environment variable.
+	When we open a terminal, we actually start a shell.  $SHELL stores the name of that program.
+17. echo {con,pre}{sent,fer}{s,ed}
+	It print concanites strings with all the combinations. It will take the sequence which we have provided i.e.
+	In above example "con" or "pre" will be always first then "sent" or "fer" will be always second and "s" or "ed" will be always last.
+	Output : consents consented confers confered presents presented prefers prefered
+18. man "automatic door"
+	As this command is not present it will print "No manual entry for automatic door"
+19. man ls
+	It will show the manual for "ls" command. "man" command is very similar to "help" command in Windows.
+20. man who
+	It will show the manual for "who" command where all the options and details are listed down for "who" command.
+21. who can tell me why i got divorced
+	It show an erroe that there is extra operand "me" is present.
+	After observeing, I found that if we provide any 2 text with "who" command it will print current users info.
+	Its not necessary to provide "who am i".
+22. lost
+	It shows message that command not found.
+	This time terminal suggested some similar commands like "most", "lout" etc.
+23. clear
+	It clear the terminal screen.
+	After observing, I found that It simply took the current directory i.e. for me as of now 
+	"vishawjeet@vishawjeet-HP-Pavilion-15-Notebook-PC:/bin$ " to the top of screen. If we scrolled up we can see our previous commands
+	and there output.
+24. cal 2000
+	It shows the calender of Year 2000.
+25. cal 9 1752
+	It show the calender of september month of 1752
+26. bc -l
+	'bc' is an arbitrary precision calculator language and '-l' defines the standard math liberary.	
+	After running this we are able to do simple math operations in terminal.
+27. echo 5+4 | bc -l
+	It is using arbitaray calculator and will do addition of '5' and '4' and print the output i.e. 9 on terminal.
+28. yes please
+	"yes" command prints the string "please" repeatedly till we kill the process using ctrl+c.
+29. time sleep 5
+	Here we are running 2 commands together "time" and "sleep".
+	"time" : It run the program and summarize system resourse usage.
+	"sleep" : It delay the terminal for specified amount of time. Here it will delay for 5 seconds.
+30. history
+	It list it out the commands we have run on the terminal with "seq no." and "command".
+
+	
+
+
+
